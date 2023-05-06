@@ -101,16 +101,15 @@ img {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
-    background-color: lightseagreen;
+    /* background-color: lightseagreen; */
     max-width: 1124px;
     margin-right: 1.5rem;
     margin-left: 1.5rem
 }
 
 .section {
-    background-color: lightgreen;
     padding: 4.5rem 0 3rem;
-    border: 2px solid blue
+    /* border: 2px solid blue */
 }
 
 .section__data {
@@ -153,7 +152,6 @@ img {
 }
 
 .main {
-    background-color: violet;
     overflow: hidden;
     /* For animation ScrollReveal */
 }
@@ -181,7 +179,7 @@ img {
 }
 
 .nav {
-    background-color: lightsalmon;
+    /* background-color: lightsalmon; */
     height: var(--header-height);
     display: flex;
     justify-content: space-between;
@@ -213,8 +211,8 @@ img {
     .nav__menu {
         position: fixed;
         background-color: hsla(180, 12%, 8%, .8);
-        backdrop-filter: blur(32px);
-        -webkit-backdrop-filter: blur(32px);
+        backdrop-filter: blur(22px);
+        -webkit-backdrop-filter: blur(22px);
         top: 0;
         right: -100%;
         width: 80%;
@@ -249,6 +247,11 @@ img {
     color: var(--title-color)
 }
 
+.nav .nav__button {
+    background-color: var(--title-color);
+    border: none
+}
+
 /* Show menu */
 
 .show-menu {
@@ -265,19 +268,107 @@ img {
 /*=============== HOME ===============*/
 
 .home {
-    background-color: blueviolet;
     position: relative;
     padding-bottom: 0;
 }
 
 .home__container {
     padding-top: 4rem;
-    row-gap: 3rem
+    padding-bottom:3rem;
+    row-gap: 3rem;
+    /* position: relative */
 }
 
 .home__data {
     text-align: center;
 }
+
+.home__subtitle {
+    font-size: var(--bigger-font-size);
+    -webkit-text-stroke: 1px var(--title-color);
+    color: transparent
+}
+
+.home__title {
+    font-size: var(--biggest-font-size);
+    font-weight: var(--font-black);
+    margin: .5rem 0;
+}
+
+.home__subtitle,
+.home__title {
+    letter-spacing: 1.5px;
+}
+
+.home__description {
+    margin-bottom: 2.5rem;
+}
+
+.home__triangle {
+    height: 325px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    clip-path: polygon(0 100%, 100% 0, 100% 100%);
+}
+
+.home__triangle-1 {
+    width: 105px;
+    background-color: var(--first-color);
+}
+
+.home__triangle-2 {
+    width: 205px;
+    background-color: var(--first-color-alt);
+}
+
+.home__triangle-3 {
+    width: 305px;
+    background-color: var(--first-color-dark);
+}
+
+.home__img {
+    display: block;
+    position: relative;
+    z-index: 1;
+    width: 350px;
+    margin: 0 auto;
+
+}
+
+.button {
+    display: inline-block;
+    background-color: var(--first-color);
+    padding: 18px 32px;
+    border: 2px solid var(--first-color-light);
+    color: var(--title-color-black);
+    font-weight: var(--font-bold);
+    cursor: pointer;
+    transition: background .3s
+}
+
+.button:hover {
+    background-color: var(--first-color-alt);
+}
+
+.button i {
+    font-size: 1.25rem;
+    transition: transform .3s
+}
+
+.button__flex {
+    display: inline-flex;
+    align-items: center;  
+    justify-content: center;
+    gap: .5rem  
+}
+
+.button__flex:hover i {
+    transform:
+}
+
+
+
 
 
 /*=============== BUTTON ===============*/
