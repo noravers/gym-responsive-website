@@ -101,13 +101,16 @@ img {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
+    background-color: lightseagreen;
     max-width: 1124px;
     margin-right: 1.5rem;
-    margin-left: 1.5rem;
+    margin-left: 1.5rem
 }
 
 .section {
-    padding: 4.5rem 0 2rem;
+    background-color: lightgreen;
+    padding: 4.5rem 0 3rem;
+    border: 2px solid blue
 }
 
 .section__data {
@@ -150,6 +153,7 @@ img {
 }
 
 .main {
+    background-color: violet;
     overflow: hidden;
     /* For animation ScrollReveal */
 }
@@ -177,6 +181,7 @@ img {
 }
 
 .nav {
+    background-color: lightsalmon;
     height: var(--header-height);
     display: flex;
     justify-content: space-between;
@@ -258,6 +263,21 @@ img {
 
 
 /*=============== HOME ===============*/
+
+.home {
+    background-color: blueviolet;
+    position: relative;
+    padding-bottom: 0;
+}
+
+.home__container {
+    padding-top: 4rem;
+    row-gap: 3rem
+}
+
+.home__data {
+    text-align: center;
+}
 
 
 /*=============== BUTTON ===============*/
