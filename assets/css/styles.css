@@ -471,17 +471,17 @@ img {
 /*=============== CHOOSE ===============*/
 
 .choose {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     padding-bottom: 0
 }
 
 .choose__overflow {
-    border: 2px solid violet;
+    /* border: 2px solid violet; */
     position: relative
 }
 
 .choose__container {
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
     row-gap: 3rem
 }
 
@@ -490,7 +490,7 @@ img {
 }
 
 .choose__description {
-    border: 2px solid rgb(28, 115, 182);
+    /* border: 2px solid rgb(28, 115, 182); */
     text-align: center;
     margin-bottom: 2.5rem
 }
@@ -502,7 +502,7 @@ img {
 }
 
 .choose__group {
-    border: 2px solid yellowgreen;
+    /* border: 2px solid yellowgreen; */
     text-align: center;
 }
 
@@ -514,7 +514,7 @@ img {
 }
 
 .choose__triangle {
-    border: 2px solid forestgreen;
+    /* border: 2px solid forestgreen; */
     background-color: red;
     height: 325px;
     position: absolute;
