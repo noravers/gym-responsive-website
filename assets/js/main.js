@@ -31,3 +31,17 @@ const scrollHeader = () => {
 }
 
 window.addEventListener('scroll', scrollHeader)
+
+//CALCULATE JAVASCRIPT
+
+const calculateForm = document.getElementById('calculate-form'),
+    calculateCm = document.getElementById('calculate-cm'),
+    calculateKg = document.getElementById('calculate-kg'),
+    calculateMessage = document.getElementById('calculate-message')
+
+const calculateBmi = (e) => {
+    e.preventDefault()
+
+    //Check if the fileds have a value
+    
+}
