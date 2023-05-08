@@ -722,6 +722,42 @@ img {
 
 /*=============== FOOTER ===============*/
 
+.footer__container {
+    border: 2px solid red;
+    padding-top: 1rem;
+    row-gap: 4rem;
+}
+
+.footer__group {
+    border: 2px solid blue
+}
+
+.footer__content {
+    border: 2px solid lightcoral
+}
+.footer__logo,
+.footer__description {
+    color: var(--title-color);
+}
+
+.footer__logo,
+.footer__form,
+.footer__social {
+    border: 2px solid fuchsia;
+    display: flex;
+}
+
+.footer__logo {
+    align-items: center;
+    column-gap: .5rem;
+    font-weight: var(--font-bold);
+    margin-bottom: 1.5rem;
+}
+
+.footer__logo img {
+    width: 1.5rem;
+}
+
 
 /*=============== SCROLL BAR ===============*/
 
