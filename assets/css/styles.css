@@ -332,6 +332,10 @@ img {
     background-color: var(--first-color-dark);
 }
 
+.home__images {
+    position: relative;
+}
+
 .home__img {
     display: block;
     position: relative;
@@ -923,6 +927,41 @@ img {
 
 
 /* For medium devices */
+
+@media screen and (min-width: 750px) {
+    .nav__menu {
+        /* border: 2px solid red; */
+        width: 50%;
+    }
+
+    .home__container,
+    .choose__container{
+        /* border: 2px solid gold; */
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    .home__data,
+    .choose__content .section__data,
+    .choose__description {
+        text-align: initial;
+    }
+
+    .logos__container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .program__container {
+        grid-template-columns: repeat(2, 225px);
+        gap: 2.5rem
+    }
+
+    .choose__content {
+        order: 1
+    }
+
+    
+}
 
 
 /* For large devices */
