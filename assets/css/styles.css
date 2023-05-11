@@ -867,12 +867,59 @@ img {
 
 /*=============== SCROLL UP ===============*/
 
+.scrollup {
+    background-color: var(--first-color);
+    position: fixed;
+    bottom: -30%;
+    right: 1rem;
+    display: inline-flex;
+    padding: .35rem;
+    color: var(--title-color-black);
+    font-size: 1.25rem;
+    z-index: var(--z-tooltip);
+    transition: .3s;
+}
+
+.scrollup:hover {
+    transform: translateY(-.25rem);
+}
+
 
 /* Show Scroll Up*/
-
+.show-scroll {
+    bottom: 3rem;
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+
+@media screen and (max-width:380px) {
+    .container {
+        /* border: 2px solid firebrick; */
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .section__titles {
+        border: 2px solid coral;
+        flex-direction: column;
+        row-gap: .25rem;
+    }
+
+    .home__triangle,
+    .choose__triangle {
+        height: 290px;
+    }
+
+    .home__triangle-3,
+    .choose__triangle-1 {
+        width: 320px;
+    }
+
+    .choose__img {
+        width: 280px;
+    }
+}
 
 
 /* For medium devices */
