@@ -723,17 +723,17 @@ img {
 /*=============== FOOTER ===============*/
 
 .footer__container {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding-top: 1rem;
     row-gap: 4rem;
 }
 
 .footer__group {
-    border: 2px solid blue
+    /* border: 2px solid blue */
 }
 
 .footer__content {
-    border: 2px solid lightcoral
+    /* border: 2px solid lightcoral */
 }
 .footer__logo,
 .footer__description {
@@ -743,7 +743,7 @@ img {
 .footer__logo,
 .footer__form,
 .footer__social {
-    border: 2px solid fuchsia;
+    /* border: 2px solid fuchsia; */
     display: flex;
 }
 
@@ -759,7 +759,87 @@ img {
 }
 
 .footer__description {
+    /* border: 2px solid firebrick; */
     margin-bottom: 2rem;
+}
+
+.footer__form {
+    flex-direction: column;
+    gap: 1.25rem
+}
+
+.footer__input {
+    padding: 20px 56px 20px 24px;
+    border: 2px solid var(--first-color-light);
+    background-color: transparent;
+    color: var(--text-color);
+    outline: none
+}
+
+.footer__links {
+    /* border: 2px solid gold; */
+    row-gap: .75rem
+}
+
+.footer__content,
+.footer__links,
+.footer__group {
+    display: grid;
+}
+
+.footer__content {
+    grid-template-columns: repeat(2, max-content);
+    gap: 2.5rem 3.5rem;
+    margin-bottom: 5rem
+}
+
+.footer__title {
+    font-size: var(--h3-font-size);
+    margin-bottom: 1.5rem
+}
+
+.footer__link {
+    color: var(--text-color);
+    transition: color .3s;
+}
+
+.footer__link:hover {
+    color: var(--first-color);
+}
+
+.footer__group {
+    justify-items: center;
+    row-gap: 2rem;
+}
+
+.footer__social {
+    column-gap: 1.25rem;
+}
+
+.footer__social-link {
+    /* border: 2px solid teal; */
+    display: inline-flex;
+    padding: .35rem;
+    background-color: var(--first-color);
+    border-radius: 50%;
+    font-size: 1.25rem;
+    color: var(--title-color-black);
+    transition: background .4s
+}
+
+.footer_social-link:hover {
+    background-color: var(--first-color-dark);
+}
+
+.footer__copy {
+    font-size: var(--smaller-font-size);
+    color: var(--text-color-light)
+}
+
+.footer__message {
+    /* border: 2px solid burlywood; */
+    position: absolute;
+    transform: translateY(1rem)
 }
 
 
