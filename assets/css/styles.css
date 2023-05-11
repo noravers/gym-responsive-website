@@ -597,7 +597,7 @@ img {
 }
 
 .pricing__item {
-    border: 2px solid hsl(0, 80%, 64%);
+    /* border: 2px solid hsl(0, 80%, 64%); */
     display: flex;
     column-gap: .5rem;
     align-items: center;
@@ -756,6 +756,10 @@ img {
 
 .footer__logo img {
     width: 1.5rem;
+}
+
+.footer__description {
+    margin-bottom: 2rem;
 }
 
 

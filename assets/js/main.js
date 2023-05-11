@@ -71,7 +71,7 @@ const calculateBmi = (e) => {
 
         setTimeout(e => {
             calculateMessage.textContent = ''
-        }, 4000)
+        }, 3000)
     }
 
    
