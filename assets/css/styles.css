@@ -842,6 +842,10 @@ img {
     transform: translateY(1rem)
 }
 
+.active-link {
+    color: var(--first-color);
+}
+
 
 /*=============== SCROLL BAR ===============*/
 
