@@ -1037,4 +1037,36 @@ img {
         grid-template-columns: repeat(2, max-content);
         align-items: initial;
     }
+
+    .home__title {
+        margin: .75rem 0 1.25rem;
+    }
+
+    .home__description {
+        width: 445px;
+        margin-bottom: 3rem
+    }
+
+    .home__img {
+        /* border: 2px solid green; */
+        width: 550px;
+        transform: translateX(-6rem)
+    }
+
+    .home__triangle {
+        height: 700px
+    }
+
+    .home__triangle-1 {
+        width: 245px;
+    }
+
+    .home__triangle-2 {
+        width: 445px ;
+    }
+
+    .home__triangle-3 {
+        width: 745px;
+    }
+
 }
