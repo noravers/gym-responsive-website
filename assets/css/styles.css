@@ -962,7 +962,7 @@ img {
     }
 
     .choose__data {
-        border: 2px solid rgb(35, 85, 171);
+        /* border: 2px solid rgb(35, 85, 171); */
         justify-content: flex-start;
     }
 
